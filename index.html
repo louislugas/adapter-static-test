@@ -22,8 +22,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/_app/immutable/entry/start.DRiOyEPe.js"),
-						import("/_app/immutable/entry/app.DDrRywoR.js")
+						import("https://rawcdn.githack.com/louislugas/adapter-static-test/main/_app/immutable/entry/start.DRiOyEPe.js"),
+						import("https://rawcdn.githack.com/louislugas/adapter-static-test/main/_app/immutable/entry/app.DDrRywoR.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
